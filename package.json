@@ -1,6 +1,5 @@
 {
   "name": "intl-shim",
-  "version": "0.0.1",
   "description": "Provides a shim for Intl for PhantomJS",
   "main": "index.js",
   "scripts": {
