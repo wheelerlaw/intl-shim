@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm install karma-intl-shim --save-dev
+npm install intl-shim --save-dev
 ```
 
 ## Usage 
