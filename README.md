@@ -14,15 +14,16 @@ In your `karma.conf.js` file, add `intl-shim` to the `frameworks` in your `confi
 
 ```
 config.set({
-  frameworks: ["intl-shim"],
+    frameworks: ["intl-shim"],
 ```
 
 You may need to also require it in your `plugins` array:
 
 ```
-plugins: [
-  require("intl-shim")
-  ]
+...
+files: [
+    './node_modules/Intl/locale-data/jsonp/en-US.js',
+...
 ```
 
 Now when running `karma`, you should not get an error that `Intl` cannot be found.
