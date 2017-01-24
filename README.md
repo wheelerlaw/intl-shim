@@ -21,7 +21,7 @@ You may need to also require it in your `plugins` array:
 
 ```
 plugins: [
-  require("karma-intl-shim")
+  require("intl-shim")
   ]
 ```
 
