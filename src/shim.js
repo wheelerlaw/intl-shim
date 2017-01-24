@@ -1,5 +1,6 @@
 var Intl = require("intl");
 
 (function () {
-  window.Intl = Intl;
+    require('intl/locale-data/jsonp/en.js');
+    window.Intl = Intl;
 })();
