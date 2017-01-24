@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/wheelerlaw/intl-shim/issues"
   },
-  "homepage": "https://github.com/wheelerlaw/intl-shim#readmee",
+  "homepage": "https://github.com/wheelerlaw/intl-shim#readme",
   "dependencies": {
     "intl": "1.2.5"
   },
