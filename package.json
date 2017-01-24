@@ -1,0 +1,33 @@
+{
+  "name": "intl-shim",
+  "version": "0.0.1",
+  "author": {
+    "name": "Chase Adams"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wheelerlaw/intl-shim/issues"
+  },
+  "dependencies": {
+    "intl": "^1.0.1"
+  },
+  "description": "Provides a shim for Intl for PhantomJS",
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  },
+  "homepage": "https://github.com/wheelerlaw/intl-shim#readme",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Wheeler Law",
+      "email": "whelderwheels613@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheelerlaw/intl-shim.git"
+  },
+  "scripts": {
+    "prepublish": "webpack src/shim.js lib/shim.js --optimize-minimize"
+  }
+}
