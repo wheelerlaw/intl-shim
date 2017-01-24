@@ -1,4 +1,4 @@
-# karma-intl-shim
+# intl-shim
 
 > A Karma shim for the `Intl` for internationalization
 
